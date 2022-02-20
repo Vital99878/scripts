@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f3e8767-81f1-47aa-aff6-d975c9604caf" name="Changes" comment="">
+    <list default="true" id="6f3e8767-81f1-47aa-aff6-d975c9604caf" name="Changes" comment="feat (newPageComponent)">
+      <change afterPath="$PROJECT_DIR$/createPageComponent/helpers.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/createPageComponent/variables.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newPageComponent.sh" beforeDir="false" afterPath="$PROJECT_DIR$/newPageComponent.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createPageComponent/createComponent.sh" beforeDir="false" afterPath="$PROJECT_DIR$/createPageComponent/createComponent.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createPageComponent/newPageComponent.sh" beforeDir="false" afterPath="$PROJECT_DIR$/createPageComponent/newPageComponent.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testImport.sh" beforeDir="false" afterPath="$PROJECT_DIR$/testImport.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/function.sh" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/changePath.sh" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/testImport.sh" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/testLoop.sh" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -37,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/createPageComponent" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
@@ -46,8 +56,35 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\scripts\createPageComponent" />
+      <recent name="W:\scripts" />
+      <recent name="W:\scripts\learn" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="W:\scripts" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="function" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/function.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/learn" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.function" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,7 +95,39 @@
       <option name="presentableId" value="Default" />
       <updated>1645259170219</updated>
       <workItem from="1645259171742" duration="9268000" />
+      <workItem from="1645367553801" duration="611000" />
+      <workItem from="1645430330715" duration="5000" />
+      <workItem from="1646496261141" duration="3809000" />
     </task>
+    <task id="LOCAL-00001" summary="feat (newPageComponent)">
+      <created>1645352132148</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645352132148</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat (newPageComponent)">
+      <created>1645352152219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645352152219</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat (newPageComponent)">
+      <created>1645367500807</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645367500807</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat (newPageComponent)">
+      <created>1646498417447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1646498417447</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +145,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="feat (newPageComponent)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat (newPageComponent)" />
   </component>
 </project>
